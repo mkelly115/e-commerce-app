@@ -7,7 +7,7 @@ const Category = require('./Category');
 // Initialize Product model (table) by extending off Sequelize's Model class
 class Product extends Model {}
 
-// set up fields and rules for Product model
+// Look into why duplicate IDs are being created under product_id and productId (only need the underscored version)
 Product.init(
   {
     id: {
