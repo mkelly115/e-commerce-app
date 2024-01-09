@@ -8,7 +8,7 @@ const Category = require('./Category');
 class Product extends Model {}
 
 // Look into why duplicate IDs are being created under product_id and productId (only need the underscored version)
-Product.init(
+Product.init( 
   {
     id: {
       type: DataTypes.INTEGER,
